@@ -1,28 +1,87 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Assignment</title>
-<link rel="stylesheet" type="text/css" href="index.css">
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>The Best Restaurant</title>
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	 <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-<h1>Assignment</h1>
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            </a>
 
-<div class="row">
-  <div class="col-lg-4 col-md-6 col-sm-12 item"><h2>Item 1
-</h2>
-<p>Everything begins from here.Everything begins from here.Everything begins from here.Everything begins from here.Everything begins from here.Everything begins from here.Everything begins from here.Everything begins from here.Everything begins from here.Everything begins from here.Everything begins from here.Everything begins from here.Everything begins from here.Everything begins from here.Everything begins from here..</p>
+		  <div class="navbar-brand">
+            <a href="index.html"><h1>Food, LLC</h1></a>
+          </div>
+
+
+          	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+        </div>
+         <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+           <li class="visible-xs">
+             <a href="index.html">
+              <span class="glyphicon glyphicon-home"></span> Home
+            </a>
+           </li>
+            <li class="visible-xs">
+              <a href="menu-categories.html">
+                <span class="glyphicon glyphicon-cutlery"></span><br class="visible-xs"> Chicken</a>
+            </li>
+            <li class="visible-xs">
+              <a href="#">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="visible-xs"> Beef</a>
+            </li>
+            <li class="visible-xs">
+              <a href="#">
+                <span class="glyphicon glyphicon-certificate"></span><br class="visible-xs"> Sushi</a>
+            </li>
+            
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div>
+    </nav>
+
+        
+	</header>
+	
+
+  <div id="main-content" class="container">
+      <h2 id="menu-categories-title" class="text-center">Our Menu</h2>
+
+      <div class="list-container">
+  <div class="list-item"><h3 class="list-title">Chicken
+</h3>
+<p class="detail">Everything begins from here.Everything begins from here.Everything begins from here.Everything begins from here.Everything begins from here.Everything begins from here.Everything begins from here.Everything begins from here.Everything begins from here.Everything begins from here.Everything begins from here.Everything begins from here.Everything begins from here.Everything begins from here.Everything begins from here..</p>
   </div>
-  <div class="col-lg-4 col-md-6 col-sm-12"><h2>Item 2 
-</h2>
-<p>Here is the middle of the page. Here is the middle of the pageHere is the middle of the pageHere is the middle of the pageHere is the middle of the pageHere is the middle of the pageHere is the middle of the pageHere is the middle of the pageHere is the middle of the pageHere is the middle of the pageHere is the middle of the pageHere is the middle of the pageHere is the middle of the pageHere is the middle of the pageHere is the middle of the pageHere is the middle of the page</p>
+  <div  class="list-item"><h3>Beef 
+</h3>
+<p class="detail">Here is the middle of the page. Here is the middle of the pageHere is the middle of the pageHere is the middle of the pageHere is the middle of the pageHere is the middle of the pageHere is the middle of the pageHere is the middle of the pageHere is the middle of the pageHere is the middle of the pageHere is the middle of the pageHere is the middle of the pageHere is the middle of the pageHere is the middle of the pageHere is the middle of the pageHere is the middle of the page</p>
   </div>
-  <div class="col-lg-4 col-md-6 col-sm-12"><h2>Item 3
-</h2>
-<p>Here is the last thing you must see.Here is the last thing you must seeHere is the last thing you must seeHere is the last thing you must seeHere is the last thing you must seeHere is the last thing you must seeHere is the last thing you must seeHere is the last thing you must seeHere is the last thing you must seeHere is the last thing you must seeHere is the last thing you must seeHere is the last thing you must seeHere is the last thing you must seeHere is the last thing you must see</p>
+  <div  class="list-item">
+  	<h3>Sushi</h3>
+  	<p class="detail">
+  	Here is the last thing you must see.Here is the last thing you must seeHere is the last thing you must seeHere is the last thing you must seeHere is the last thing you must seeHere is the last thing you must seeHere is the last thing you must seeHere is the last thing you must seeHere is the last thing you must seeHere is the last thing you must seeHere is the last thing you must seeHere is the last thing you must seeHere is the last thing you must seeHere is the last thing you must see
+  </p>
   </div>
 
 </div>
+   
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script> 
 
 </body>
 </html>
